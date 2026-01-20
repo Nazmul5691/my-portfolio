@@ -12,7 +12,7 @@ const Footer = () => {
           {/* Left Side: Logo & Copyright */}
           <div className="text-center md:text-left">
             <h2 className="text-2xl font-bold bg-linear-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent mb-2">
-              Meriem{"</>"}
+              Nazmul{"</>"}
             </h2>
             <p className="text-gray-500 text-sm tracking-wide">
               © {currentYear} All rights reserved

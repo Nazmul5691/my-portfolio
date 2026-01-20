@@ -13,27 +13,27 @@ const Projects = () => {
       name: "Tour Booking Website",
       image: "https://res.cloudinary.com/dh3ej57qw/image/upload/v1768909282/tour-booking-website2_xcvnx4.jpg",
       description: "A Tour booking system with user authentication, tour management, and real-time analytics dashboard.",
-      languages: ["Next.js", "TypeScript", "Mongosse", "MongoDB", "Tailwind"],
+      languages: ["Next.js", "TypeScript", "Tailwind", "Mongosse", "MongoDB"],
       github: "https://github.com/Nazmul5691/tour-booking-frontend",
-      demo: "https://tour-booking-frontend-indol.vercel.app/"
+      demo: "https://tour-booking-frontend-indol.vercel.app"
     },
     {
       id: 2,
-      name: "Real-time Chat App",
-      image: "https://images.unsplash.com/photo-1611746872915-64382b5c76da?q=80&w=2070&auto=format&fit=crop",
-      description: "Secure messaging application featuring instant delivery, media sharing, and group chat capabilities using WebSockets.",
-      languages: ["React", "Node.js", "Express", "Socket.io", "MongoDB"],
-      github: "https://github.com",
-      demo: "https://demo.com"
+      name: "Digital Wallet System",
+      image: "https://res.cloudinary.com/dh3ej57qw/image/upload/v1768911426/exy-pay_auabkh.jpg",
+      description: "A secure digital wallet system with real-time transaction tracking and user-friendly interface.",
+      languages: ["React","TypeScript", "Node.js", "Express", "MongoDB"],
+      github: "https://github.com/Nazmul5691/digital-wallet-system-frontend",
+      demo: "https://digital-wallet-system-frontend-six.vercel.app"
     },
     {
       id: 3,
       name: "Portfolio Website",
-      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=2069&auto=format&fit=crop",
+      image: "https://res.cloudinary.com/dh3ej57qw/image/upload/v1768911617/growify_tah6xu.jpg",
       description: "A modern, high-performance portfolio featuring smooth animations, glass-morphism, and fully responsive design.",
       languages: ["React", "Tailwind v4", "Lucide Icons", "Framer Motion"],
-      github: "https://github.com",
-      demo: "https://demo.com"
+      github: "https://github.com/Nazmul5691/Growify-Portfolio",
+      demo: "https://growify-rho.vercel.app"
     }
   ];
 

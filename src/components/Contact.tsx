@@ -26,7 +26,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm text-gray-500 font-medium uppercase tracking-wider">E-mail:</p>
-                    <p className="text-lg font-semibold text-gray-200">nafiz125@gmail.com</p>
+                    <p className="text-lg font-semibold text-gray-200">nazmulislam5691@gmail.com</p>
                   </div>
                 </div>
 
@@ -37,7 +37,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm text-gray-500 font-medium uppercase tracking-wider">Location:</p>
-                    <p className="text-lg font-semibold text-gray-200">3891 Ranchview Dr. Richardson</p>
+                    <p className="text-lg font-semibold text-gray-200">Tangail, Dhaka</p>
                   </div>
                 </div>
 
@@ -48,7 +48,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm text-gray-500 font-medium uppercase tracking-wider">Contact:</p>
-                    <p className="text-lg font-semibold text-gray-200">01245789321</p>
+                    <p className="text-lg font-semibold text-gray-200">01714587902</p>
                   </div>
                 </div>
               </div>
