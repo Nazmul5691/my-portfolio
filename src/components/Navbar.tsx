@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="text-2xl font-bold">
-            <span className="text-purple-400">Meriem</span>
+            <span className="text-purple-400">Nazmul</span>
             <span className="text-white">&lt;/&gt;</span>
           </div>
 

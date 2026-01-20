@@ -1,73 +1,70 @@
-# React + TypeScript + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the official repository of my personal portfolio. This website is a professional showcase designed to highlight my development journey, technical expertise, and the creative projects I have built. It features a "Dark Premium" aesthetic using glass-morphism, vibrant gradients, and technical grid overlays.
 
-Currently, two official plugins are available:
+## ✨ Design & Feature Highlights
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 💻 Advanced Project Showcase
+* **Glass-morphism UI**: Project cards are built with backdrop blur effects for a modern, frosted glass look.
+* **Technical Backgrounds**: A signature bottom-left decorative grid with a large square size and a bold white radial glow provides depth.
+* **Interactive CTAs**: Custom buttons feature a "Repository" outline style and a "Demo" pink-to-purple gradient style with integrated icons.
+* **Smooth Animations**: The UI includes hover transitions like card lifting and image scaling for an engaging user experience.
 
-## React Compiler
+### 📬 Modern Contact Hub
+* **Bold Visual Identity**: A dramatic "Get Ready To Create Great" headline grabs visitor attention immediately.
+* **Communication Center**: Dedicated sections with icons for Email, Location, and Phone provide easy access to contact info.
+* **High-Conversion Form**: Sleek, dark input fields feature purple focus borders and a primary "Send a message" button in a solid purple finish.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🔗 Cohesive Footer
+* **Personal Branding**: Minimalist branding features the personalized logo "Meriem</>" with a gradient text effect.
+* **Streamlined Navigation**: Quick-access navigation links connect to the Home, About, Skills, Projects, and Contact sections.
+* **Copyright Notice**: A professional "All rights reserved" statement includes a dynamic year display.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* **Framework**: React.js / Vite (for fast and modern development).
+* **Styling**: Tailwind CSS (Utility-first approach for pixel-perfect design).
+* **Iconography**: Lucide-React (crisp, scalable vector icons).
+* **Typography**: Professional use of Bold Italics and clean Sans-serif ensures maximum readability.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 Getting Started
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🚀 Getting Started
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+To run this project locally, follow these steps:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/yourusername/portfolio.git](https://github.com/yourusername/portfolio.git)
+    ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+
+## 📸 Project Showcase
+
+| Projects View | Contact Form |
+| :--- | :--- |
+| ![Projects Section](image_328ae4.png) | ![Contact Section](image_337b62.png) |
+
+## 📁 Project Structure
+
+```text
+├── src
+│   ├── components
+│   │   ├── Hero.tsx
+│   │   ├── About.tsx
+│   │   ├── Skills.tsx
+│   │   ├── Projects.tsx   <--
+│   │   ├── Contact.tsx    <--
+│   │   └── Footer.tsx     <--
+│   ├── App.tsx
+│   └── main.tsx
+└── tailwind.config.js
