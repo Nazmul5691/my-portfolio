@@ -127,14 +127,14 @@ const ProjectDetails = () => {
             </div>
           )}
 
-          {/* Core Features */}
-          {project.coreFeatures && (
+          {/* ai Features */}
+          {project.aiFeatures && (
             <div className="bg-slate-900/50 border border-slate-800 rounded-2xl p-6">
               <h2 className="text-2xl font-bold mb-4 text-purple-400">
-                Core Features
+                AI Features
               </h2>
               <p className="text-gray-300 leading-relaxed whitespace-pre-line">
-                {project.coreFeatures}
+                {project.aiFeatures}
               </p>
             </div>
           )}

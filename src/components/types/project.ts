@@ -9,6 +9,7 @@ export interface Project {
   paymentSystem?: string;
   folderStructure?: string;
   coreFeatures?: string;
+  aiFeatures?: string;
   designUI?: string;
   pageBreakdowns?: string;
   performanceHosting?: string;

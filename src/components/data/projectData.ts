@@ -26,8 +26,32 @@ export const projectData: Project[] = [
   },
   {
     id: 2,
+    name: "Doctorate — Healthcare Consultation Platform",
+    image: "https://res.cloudinary.com/dh3ej57qw/image/upload/q_auto/f_auto/v1775234169/33000ee0-1c47-4d18-aa31-ccbcac29e01b.png", 
+    description: "A comprehensive, role-based telemedicine platform connecting patients with verified doctors for digital consultations.",
+    projectOverview: "Doctorate is a production-grade healthcare solution featuring AI-powered doctor matching, secure appointment scheduling, and automated billing. It supports complex workflows for Patients, Doctors, and Admins with a modular architecture.",
+    techStack: `Frontend: Next.js 16 (App Router), React 19, TypeScript.
+      Styling: Tailwind CSS v4, Radix UI, Framer Motion.
+      Backend: Node.js (Express v5), PostgreSQL, Prisma ORM.
+      Infrastructure: Stripe (Payments), Cloudinary (Media), Nodemailer.`,
+    authentication: `Advanced RBAC: Multi-layered access control for Patient, Doctor, Admin, and Super Admin.
+      Token Lifecycle: Secure JWT implementation with Access/Refresh tokens and cookie-based persistence.
+      Middleware: Centralized route protection and automated token rotation logic.`,
+    aiFeatures: `Symptom-Based Search: AI-powered system that analyzes user symptoms (e.g., "chest pain") to suggest relevant specialists (e.g., Cardiologist).
+      Smart Discovery: Eliminates manual filtering, improving patient conversion and UX.`,
+    paymentSystem: `Stripe Integration: Seamless payment processing for consultations and subscriptions.
+      Features: Secure checkout, subscription management, and automated billing.`,
+    folderStructure: `src/app: Next.js App Router for file-based routing.
+      src/services: API calls and business logic isolation.
+      src/utils: Helper functions for authentication, payments, and AI features.`,
+    languages: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Express", "Stripe"],
+    github: "https://github.com/Nazmul5691/health-care-frontend",
+    demo: "https://health-care-frontend-tshw.vercel.app/"
+  },
+  {
+    id: 3,
     name: "Digital Wallet System",
-    image: "https://res.cloudinary.com/dh3ej57qw/image/upload/v1768911426/exy-pay_auabkh.jpg",
+    image: "https://res.cloudinary.com/dh3ej57qw/image/upload/q_auto/f_auto/v1774993586/4b0f1a1b-7425-4a8a-b830-c292b13dbfdd.png",
     description: "A secure, role-based fintech frontend similar to bKash, facilitating seamless money transfers.",
     projectOverview: "This is a Digital Wallet system (Exy-Pay) where Users, Agents, and Admins can manage their financial activities. It supports dynamic transactions and real-time balance updates.",
     techStack: `Core: React.js, TypeScript.
@@ -47,25 +71,4 @@ export const projectData: Project[] = [
     github: "https://github.com/Nazmul5691/digital-wallet-system-frontend",
     demo: "https://digital-wallet-system-frontend-six.vercel.app"
   },
-  {
-    id: 3,
-    name: "Growify - SEO & Digital Agency",
-    image: "https://res.cloudinary.com/dh3ej57qw/image/upload/v1768911617/growify_tah6xu.jpg",
-    description: "A high-performance agency portfolio featuring glass-morphism and engaging animations.",
-    projectOverview: "Growify is a portfolio website for an SEO agency. It is basically built for business service display, client case studies, and lead generation.",
-    techStack: `Frontend: React.js.
-      Styling: Tailwind CSS v4 (Modern styling).
-      Icons & Animation: Lucide Icons & Framer Motion.`,
-    designUI: `Glass-morphism: Modern blurred-glass effects and sleek UI components.
-      Responsiveness: Pixel perfect layout on all devices from desktop to mobile.
-      Custom CSS: Unique hover effects and keyframe animations beyond Tailwind.`,
-    pageBreakdowns: `Blog Page: Platform for sharing articles on digital marketing trends.
-      Portfolio Page: Industry-wise successful project details showcase.
-      Consultation Page: Optimized contact form for collecting leads.`,
-    performanceHosting: `Vercel: Fast deployment and optimized static asset delivery.
-      SEO Optimized: Meta tags and semantic HTML structure ensured.`,
-    languages: ["React", "Tailwind v4", "Framer Motion", "Lucide Icons"],
-    github: "https://github.com/Nazmul5691/Growify-Portfolio",
-    demo: "https://growify-rho.vercel.app"
-  }
 ];
