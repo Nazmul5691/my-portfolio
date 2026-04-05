@@ -72,7 +72,7 @@ const Banner = () => {
             {/* CTA and Social Links */}
             <div className="flex items-center gap-4 pt-4">
               <a
-                href="https://drive.google.com/file/d/1tdvtlnZFBi4QWAXiLUa8l0xENHI9yksK/view?usp=sharing"
+                href="https://drive.google.com/file/d/1GhN7JW2hCgTFbivwUeDWjWt9Ww7vKpMa/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-linear-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-3 rounded-full flex items-center gap-2 transition-all transform hover:scale-105"
